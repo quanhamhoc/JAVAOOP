@@ -5,7 +5,7 @@ import java.util.Scanner;
  */
 public class baislide47 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {`
         int number, sum = 0;
     Scanner scanner = new Scanner(System.in);      
     do {
