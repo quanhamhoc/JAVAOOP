@@ -6,8 +6,8 @@ public class slide95 {
         int n;
         do{
         System.out.println( "nhap so nguyen duong bat ky:");
-    int n = sc.nextInt();
+     n = sc.nextInt();
     }
-    while(n <1)
-    System.out.print("so nguyen duong vua nhap:");
+    while(n <1);
+    System.out.print("so nguyen duong vua nhap:" + n);
 }}

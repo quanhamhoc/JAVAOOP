@@ -1,7 +1,7 @@
 /**
  * baislide55
  */
-public class baislide55 {
+public class baislide55chuong2 {
 
     public static void main(String[] args) {
         System.out.println("cac so chia het cho 5 la: ");

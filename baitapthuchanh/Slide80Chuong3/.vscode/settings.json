@@ -1,0 +1,10 @@
+{
+    "java.project.sourcePaths": [
+        "src",
+        "Slide80Chuong3"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ]
+}

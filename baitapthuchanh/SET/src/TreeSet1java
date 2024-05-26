@@ -1,0 +1,35 @@
+import java.util.Scanner;
+import java.util.TreeSet;
+
+public class TreeSet {
+
+    public static void main(String[] args) {
+        int number;
+        TreeSet<Integer>TreeSetInteger = new TreeSet<>();
+        Scanner sc = new Scanner(System.in);
+        
+        TreeSetInteger.add(0);
+        TreeSetInteger.add(3);
+        TreeSetInteger.add(1);
+        TreeSetInteger.add(4);
+        TreeSetInteger.add(2);
+        TreeSetInteger.add(8);
+
+        System.out.println(" cac phan tu co trong treesetinteger");
+        System.out.println(TreeSetInteger);
+        System.out.println(" nhap phan tu can them");
+        number = sc.nextInt();
+
+        if (!TreeSetInteger.contains(number)) {
+            TreeSetInteger.add(number);
+            System.out.println(" them phan tu thanh cong");
+            System.out.println("cac phan tu TreeSetInteger sau khi them :");
+            System.out.println(TreeSetInteger);
+        }
+        else{
+            System.out.println(" phan tu " + number + " da ton tai");
+
+        }
+
+    }
+}
